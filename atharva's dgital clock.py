@@ -19,12 +19,12 @@ root=Tk()
 root.geometry("600x300")
 #create a variable clock and store label
 #First label will show time, second label will show hour:minute:second, third label will show the top digital clock
-clock=Label(root,font=("times",60,"bold"),bg="red")
+clock=Label(root,font=("times",60,"bold"),bg="blue")
 clock.grid(row=2,column=2,pady=25,padx=100)
 timing()
  
 #create a variable for digital clock
-digital=Label(root,text="Tejas's Digital Clock",font="times 24 bold")
+digital=Label(root,text="Atharva's Digital Clock",font="times 24 bold")
 digital.grid(row=0,column=2)
  
 nota=Label(root,text="hours        minutes        seconds",font="times 15 bold")
